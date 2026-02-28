@@ -3,7 +3,7 @@
 
 [project]
 name = "deweypy"
-version = "0.7.0"
+version = "0.8.0"
 description = "A Python client for Dewey Data (https://deweydata.io/)."
 readme = "README.md"
 requires-python = ">=3.12,<3.14"
@@ -21,6 +21,7 @@ dependencies = [
   "python-slugify>=8.0.4",
   "rich>=14.2.0",
   "shellingham>=1.5.4",
+  "tenacity>=9.0.0",
   "typer>=0.20.0",
 ]
 
